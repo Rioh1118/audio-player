@@ -1,0 +1,63 @@
+div.side-bar {
+    width: 20%;
+    min-height: 100vh;
+    /* Viewportの高さを最低限確保 */
+    background-color: #f8696a;
+    border: 1px solid #707070;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#audio-search {
+    margin-left: 10%;
+    width: 80%;
+    /* 幅を親要素に対して80%に設定 */
+    height: 32px;
+    padding: 0px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    /* フォントサイズを調整 */
+    font-family: "Helvetica", sans-serif;
+    font-weight: 300;
+    font-style: oblique;
+    color: #707070;
+    outline: none;
+    margin-bottom: 20px;
+    /* ボタンとの間隔を調整 */
+    text-align: center;
+}
+
+#audio-search::placeholder {
+    color: #707070;
+    oppacity: 1;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin-left: 10%;
+    width: 100%;
+}
+
+.menu-item {
+    background: none;
+    border: none;
+    color: #0d1744;
+    font-family: "Helvetica", sans-serif;
+    font-weight: 700;
+    text-align: left;
+    padding: 10px 0 10px 0px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.menu-item:nth-child(1) {
+    font-size: 21px;
+    font-style: oblique;
+}
